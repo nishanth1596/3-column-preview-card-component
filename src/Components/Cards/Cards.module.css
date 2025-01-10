@@ -3,6 +3,7 @@
   grid-template-rows: 1fr;
   max-width: 20.4375rem;
   border-radius: 0.5rem;
+    overflow: hidden;
 
   margin-top: 5.5rem;
   margin-bottom: 5.5rem;
@@ -12,5 +13,8 @@
   .container {
     grid-template-columns: repeat(3, 1fr);
     max-width: 57.5rem;
+
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
