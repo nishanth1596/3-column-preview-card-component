@@ -1,0 +1,58 @@
+.cardItem {
+  padding: 3rem 2.96875rem 3rem 3.0625rem;
+  background-color: var(--bg-color);
+}
+
+.icon {
+  width: 100%;
+  max-width: 4rem;
+}
+
+.heading {
+  margin-top: 2.1875rem;
+  font-family: var(--ff-bigShoulders);
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--f2f2f2);
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+
+.info {
+  margin-top: 1.5625rem;
+  margin-left: -0.03125rem;
+
+  opacity: 0.75;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.5625rem;
+
+  background-color: var(--f2f2f2);
+  border-radius: 100px;
+  padding: 0.6875rem 1.96875rem 0.75rem 1.96875rem;
+
+  color: var(--bg-color);
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 2px white;
+  color: #ffffff;
+  background-color: var(--bg-color);
+}
+
+@media (min-width: 59rem) {
+  .link {
+    margin-top: 5.1875rem;
+  }
+}
