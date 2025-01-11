@@ -6,7 +6,7 @@ function CardItem({ item }) {
       <img src={item.logo} alt="" className={styles.icon} />
       <h1 className={styles.heading}>{item.title}</h1>
       <p className={styles.info}>{item.info}</p>
-      <a className={styles.link} href="#">
+      <a className={styles.link} href="#" onClick={(e) => e.preventDefault()}>
         Learn More
       </a>
     </div>
